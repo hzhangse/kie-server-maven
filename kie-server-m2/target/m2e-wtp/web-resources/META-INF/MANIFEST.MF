@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Implementation-Title: kie-server-m2 Maven Webapp
+Implementation-Version: 7.2.0.Final
+Java-Version: 1.8.0_91
+Built-By: ryan
+Scm-Connection: scm:git:https://github.com:kiegroup/droolsjbpm-integra
+ tion.git/kie-server-parent/kie-server-wars/kie-server
+Specification-Vendor: JBoss by Red Hat
+Os-Arch: amd64
+Specification-Title: kie-server-m2 Maven Webapp
+Implementation-Vendor-Id: org.kie.server
+Java-Vendor: Oracle Corporation
+Os-Name: Linux
+Scm-Url: https://github.com/kiegroup/droolsjbpm-integration/kie-server
+ -parent/kie-server-wars/kie-server
+Implementation-Vendor: JBoss by Red Hat
+Os-Version: 4.10.0-33-generic
+Scm-Revision: 
+Build-Jdk: 1.8.0_91
+Specification-Version: 7.2
+Created-By: Maven Integration for Eclipse
+Implementation-URL: http://maven.apache.org
+
