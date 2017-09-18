@@ -1,0 +1,5 @@
+tomcat 部署配置文件
+1.conf目录下的文件复制到eclipse环境的因配置tomcat生成servers目录下
+2.setenv.sh的脚本需要复制到tomcat debug configuration 下，例如：
+VM
+-Xmx512M -Djbpm.tsr.jndi.lookup=java:comp/env/TransactionSynchronizationRegistry -Dorg.kie.server.persistence.ds=java:comp/env/jdbc/jbpm -Djbpm.tm.jndi.lookup=java:comp/env/TransactionManager -Dorg.kie.server.persistence.tm=JBossTS -Dhibernate.connection.release_mode=after_transaction -Dorg.kie.server.location=http://localhost:8082/kie-server/services/rest/server -Dorg.kie.server.user=kieserver -Dorg.kie.server.pwd=kieserver -Dcatalina.base="/home/ryan/work/workspace/kie-server-debug/.metadata/.plugins/org.eclipse.wst.server.core/tmp1" -Dcatalina.home="/home/ryan/work/workspace/kie-server-debug/kie-tomcat" -Dwtp.deploy="/home/ryan/work/workspace/kie-server-debug/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps" -Djava.endorsed.dirs="/home/ryan/work/workspace/kie-server-debug/kie-tomcat/endorsed"
